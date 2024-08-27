@@ -22,7 +22,7 @@ pod 'github-core'
 
 ## Author
 
-Diego Uthman, diegouhtman_southsystem@getnet.com.br
+Diego Uthman, diegouthman5@gmail.com
 
 ## License
 
