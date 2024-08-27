@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'github-core_Example' do
+  pod 'github-core', :path => '../'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+
+  target 'github-core_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
