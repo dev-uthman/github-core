@@ -4,14 +4,12 @@ Pod::Spec.new do |s|
   s.summary          = 'A short description of github-core.'
 
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Módulo de core do app GithubProjectIOS"
 
-  s.homepage         = 'https://github.com/Diego Uthman/github-core'
+  s.homepage         = 'https://github.com/dev-uthman/github-core'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Diego Uthman' => 'diegouhtman5@gmail.com' }
-  s.source           = { :git => 'https://github.com/Diego Uthman/github-core.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dev-uthman/github-core.git', :tag => s.version.to_s }
   
   s.dependency 'RxSwift', '6.5.0'
   s.dependency 'RxCocoa', '6.5.0'
